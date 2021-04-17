@@ -1,0 +1,148 @@
+html, body{
+    font-family : monospace;
+    height: 100vh;
+}
+#home .content{
+    background: url("./Assest/images/homeBg.jpg");
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+#home .projectTitle{
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    color: white;    
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-family: fantasy;
+}
+#home .subContent{
+    position: relative;
+    height: 70vh;
+    width:80%;
+    margin: 0px auto;
+    opacity: 97%;
+}
+#home .subtitle{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-weight: bolder;
+}
+.slide .slideFormate{
+    padding: 70px 100px;
+}
+.slideFormate .head{
+    font-weight: bolder;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: darkmagenta;    
+}
+.slideFormate .slideContent{
+    width: 95%;
+        text-align: justify;
+        margin-top: 80px;
+        font-size: 18px;
+}
+.slideFormate .slideContent p{
+    margin-bottom: 35px;
+    text-align: justify;
+}
+.fcHighlight{
+    color: darkmagenta !important;
+}
+.bgPrimary{
+    background-color: #43C8C6 !important;
+}
+.bgSecondary{
+    background-color: #F7BCC2 !important;
+}
+.section_I{
+    padding: 40px 40px;
+}
+.contentScreen{
+    padding: 40px 40px;
+}
+.contentScreen .contentHead h1{
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 4rem;
+}
+.nameHead{
+    font-size: 28px;
+    font-weight: 900;
+}
+.borderRight{
+    border-right:2px solid #81575b;
+}
+.section_II p{
+    font-size: 14px;
+    font-weight: 900;
+
+}
+.section_II .subContent{
+    margin-top: 70px !important;
+}
+.avatar {
+    margin-left: 19rem;
+    width: 86px;
+    padding: 13px 20px;
+    border-radius: 50%;
+    font-size: 38px;
+    color: #ffefef;
+    background-color: black !important;
+    border: 3px solid #fff;
+}
+.images{
+    margin-top: 50px;
+}
+#slide3 .canvaHead h1{
+    font-size: 32px;
+    
+}
+table {
+    font-size: 16px;
+    width: 100%;
+}
+
+table tr h3 {
+    font-weight: bolder;
+    padding-top: 20px;
+}
+table tr td {
+    padding: 0.5rem 2rem;
+    vertical-align: middle;
+}
+
+#aeiou table tr td {
+    width: 16% i !important;
+}
+#empathy table tr td {
+    width: 25%;
+}
+thead .tableContent{
+    color: grey; 
+    font-weight: bold;
+}
+table tr .noBorder{
+    border-top: 0px;
+    border-bottom: 0px;
+    color: grey;
+    font-weight: bold;
+}
+table tr .noBorderAll{
+    border: 0px;
+    color: grey;
+    font-weight: bold;
+}
+table tr td p {
+    margin: 0px;
+    line-height: 25px;
+}
+.lastRow td{
+    padding-bottom: 100px;
+}
