@@ -1,82 +1,215 @@
 <html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div id="PDC" class="container-fluid p-5">
-        <table border="1" style="border-color: grey;">
-            <thead style="background-color: lightgrey;">
-                <td colspan="2" style="border-right: 0px;">
-                    <h1 style="font-weight: bolder;">Product Development Canvas</h1>
-                </td>
-                <td style="border-left: 0px;border-right: 0px; text-align: right;" colspan="2">
-                    <div>
-                        <p><b>Team/Date/Version : </b> <span class="tableContent"> The Uncoldfive / 10-03-2021 / 1.0
-                            </span></p>
-                    </div>
-                </td>
-            </thead>
-            <tr>
-                <td style="border-bottom: 0px;">
-                    <h3 class="m-0 text-center"><i class="bi bi-patch-question-fill fa-lg"></i> Purpose</h3>
-                </td>
-                <td colspan="2" style="border-bottom: 0px;">
-                    <h3 class="m-0 text-center"><i class="bi bi-file-earmark-code-fill fa-lg"></i> Product Experience</h3>
-                </td>
-                <td rowspan="5" style="border-bottom: 0px;">
-                    <h3 class="m-0 text-center"><i class="bi bi-file-earmark-check-fill fa-lg"></i> Customer Revalidation</h3>
-                </td>
-            </tr>
-            <tr>
-                <td class="noBorder">
-                    - Easy To Find a Vacant Parking Space
-                </td>
-                <td class="noBorder" colspan="2">
-                    <p>- Encrypted User Data</p>
-                    <p>- Safe Online Payment</p>
-                    <p>- Smart Parking Management</p>
-                </td>
-            </tr>
-            <tr>
-                <td class="noBorder">
-                    - Reduce Time To Find Parking Space
-                </td>
-                <td colspan="2" rowspan="2"></td>
-            </tr>
-            <tr class="lastRow">
-                <td class="noBorder" rowspan="2">
-                    - No More Conjuction Inside Parking 
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2" rowspan="3"></td>
-            </tr>
-            <tr>
-                <td rowspan="5"></td>
-                <td rowspan="5"></td>
-            </tr>
-            <tr>
-            </tr>
-            <tr>
-                <td colspan="2" rowspan="3"></td>
-            </tr>
-            <tr>
-            </tr>
-            <tr>
-            </tr>
-        </table>
-    </div>
+	<div id="PDC" class="container-fluid p-5">
+		<table border="1" style="border-color: grey;">
+			<thead style="background-color: lightgrey;">
+				<td colspan="2" class="br-0">
+					<h1 style="font-weight: bolder;">Product Development Canvas</h1>
+				</td>
+				<td class="bx-0 text-right" colspan="2">
+					<div>
+						<p><b>Team/Date/Version : </b> <span class="tableContent"> The Uncoldfive / 10-03-2021 / 1.0
+							</span></p>
+					</div>
+				</td>
+			</thead>
+		</table>
+		<div class="d-flex">
+			<div id="colOne">
+				<table border="1" style="border-color: grey;" class="bt-0">
+					<tr>
+						<td class="bb-0 pb-5" style="height: 50px;">
+							<h3 class="m-0"><i class="bi bi-patch-question-fill fa-lg"></i> Purpose</h3>
+						</td>
+					</tr>
+					<tr class="lastRow">
+						<td class="noBorder">
+							<p>- Encrypted User Data</p>
+							<p>- Safe Online Payment</p>
+							<p>- Smart Parking Management</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="bb-0 pb-5" style="border-top: 1px solid;height: 50px;">
+							<h3 class="m-0"><i class="bi bi-people-fill fa-lg"></i> People</h3>
+						</td>
+					</tr>
+					<tr class="lastRow">
+						<td class="noBorder">
+							<p>- Visitors</p>
+							<p>- Customers</p>
+							<p>- Employees</p>
+							<p>- Students</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="colTwo" class="w-50">
+				<table border="1" style="border-color: grey;" class="bx-0 bt-0">
+					<tr>
+						<td class="bb-0 pb-5">
+							<h3 class="m-0 text-center"><i class="bi bi-clipboard-data fa-lg"></i> Product Experience</h3>
+						</td>
+					</tr>
+					<tr>
+						<td class="noBorder pb-5">
+							<p>- Encrypted User Data</p>
+							<p>- Secure Online Payment</p>
+							<p>- Smart Parking Management</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="bb-0 pb-5" style="border-top: 1px solid;">
+							<h3 class="m-0 text-center"><i class="bi bi-wrench fa-lg"></i> Product Functions</h3>
+						</td>
+					</tr>
+					<tr>
+						<td class="noBorder pb-5">
+							<p>- QR Scanning to fetch detail about parking on the device</p>
+							<p>- Easy To Use For Every Technical Or Non-Technical User</p>
+							<p>- Online Payment Module</p>
+							<p>- Latest Technology</p>
+							<p>- User Feedback</p>
+							<p>- Regular Maintainance</p>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="bb-0 pb-5" style="border-top: 1px solid;">
+							<h3 class="m-0 text-center"><i class="bi bi-cart-plus-fill fa-lg"></i> Product Features</h3>
+						</td>
+					</tr>
+					<tr>
+						<td class="noBorder pb-5">
+							<p>- Provide Secure Online Payment Mode </p>
+							<p>- Connect To Internet For Spot Available Parking Spaces</p>
+							<p>- Advanced Technology</p>
+						</td>
+					</tr>
+					
+					<tr>
+						<td class="bb-0 pb-5" style="border-top: 1px solid;">
+							<h3 class="m-0 text-center"><i class="bi bi-gear-wide-connected fa-lg"></i> Components</h3>
+						</td>
+					</tr>
+					<tr>
+						<td class="noBorder pb-5">
+							<p>- Smartphone</p>
+							<p>- Car Sensor</p>
+							<p>- QR Code At Parking Entrance</p>
+							<p>- Application Software To Management Of Parking</p>
+							<p>- QR Scanner Inside Application</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="colThree">
+				<table border="1" style="border-color: grey;" class="bt-0">
+					<tr>
+						<td class="bb-0 pb-5" style="height: 50px;">
+							<h3 class="m-0"><i class="bi bi-file-earmark-check-fill fa-lg"></i> Customer Revalidation</h3>
+						</td>
+					</tr>
+					<tr class="lastRow">
+						<td class="noBorder">
+							<p>- Easy To Use</p>
+							<p>- Advanced Technology</p>
+							<p>- Remote Monitoring</p>
+						</td>
+					</tr>
+					<tr>
+						<td class="bb-0 pb-5" style="border-top: 1px solid;height: 50px;">
+							<h3 class="m-0"><i class="bi bi-graph-up fa-lg"></i> Reject, Redesign, Retain</h3>
+						</td>
+					</tr>
+					<tr class="lastRow">
+						<td class="noBorder">
+							<p>- Maintainance Cost</p>
+							<p>- Network Connectivity Issues</p>
+							<p>- QR Code Scanning Issues</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
 </body>
 
 </html>
+
+
+<!-- <table border="1" style="border-color: grey;">
+    <thead style="background-color: lightgrey;">
+        <td colspan="2" style="border-right: 0px;">
+            <h1 style="font-weight: bolder;">Product Development Canvas</h1>
+        </td>
+        <td style="border-left: 0px;border-right: 0px; text-align: right;" colspan="2">
+            <div>
+                <p><b>Team/Date/Version : </b> <span class="tableContent"> The Uncoldfive / 10-03-2021 / 1.0
+                    </span></p>
+            </div>
+        </td>
+    </thead>
+    <tr>
+        <td style="border-bottom: 0px;">
+            <h3 class="m-0 text-center"><i class="bi bi-patch-question-fill fa-lg"></i> Purpose</h3>
+        </td>
+        <td colspan="2" style="border-bottom: 0px;">
+            <h3 class="m-0 text-center"><i class="bi bi-file-earmark-code-fill fa-lg"></i> Product Experience</h3>
+        </td>
+        <td rowspan="5" style="border-bottom: 0px;">
+            <h3 class="m-0 text-center"><i class="bi bi-file-earmark-check-fill fa-lg"></i> Customer Revalidation</h3>
+        </td>
+    </tr>
+    <tr>
+        <td class="noBorder">
+            - Easy To Find a Vacant Parking Space
+        </td>
+        <td class="noBorder" colspan="2">
+            <p>- Encrypted User Data</p>
+            <p>- Safe Online Payment</p>
+            <p>- Smart Parking Management</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="noBorder">
+            - Reduce Time To Find Parking Space
+        </td>
+        <td colspan="2" rowspan="2"></td>
+    </tr>
+    <tr class="lastRow">
+        <td class="noBorder" rowspan="2">
+            - No More Conjuction Inside Parking 
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="3"></td>
+    </tr>
+    <tr>
+        <td rowspan="5"></td>
+        <td rowspan="5"></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="3"></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+</table> -->

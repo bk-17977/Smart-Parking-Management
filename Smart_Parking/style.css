@@ -44,9 +44,9 @@ html, body{
 }
 .slideFormate .slideContent{
     width: 95%;
-        text-align: justify;
-        margin-top: 80px;
-        font-size: 18px;
+    text-align: justify;
+    margin-top: 80px;
+    font-size: 18px;
 }
 .slideFormate .slideContent p{
     margin-bottom: 35px;
@@ -126,7 +126,7 @@ table tr td {
 #aeiou table tr td {
     width: 16% i !important;
 }
-#empathy table tr td, #PDC table td {
+#empathy table tr td {
     width: 25%;
 }
 thead .tableContent{
@@ -150,4 +150,33 @@ table tr td p {
 }
 .lastRow td{
     padding-bottom: 100px;
+}
+#PDC #colOne{
+    width: 25%;=;
+}
+#PDC #colThree{
+    width: 30%;
+}
+#PDC #colOne table,#colThree table{
+    height: 100%;
+}
+.bb-0{
+    border-bottom: 0px !important;
+}
+.bt-0{
+    border-top: 0px !important;
+}
+.br-0{
+    border-right: 0px !important ;
+}
+.bl-0{
+    border-left: 0px !important ;
+}
+.bx-0{
+    border-right: 0px !important ;
+    border-left: 0px !important ;
+}
+.by-0{
+    border-top: 0px !important ;
+    border-bottom: 0px !important ;
 }
